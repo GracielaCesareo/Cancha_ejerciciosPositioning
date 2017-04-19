@@ -1,0 +1,64 @@
+#perimetro {
+  width: 1000px;
+  height: 500px;
+  background-color: green;
+  margin-left: 120px;
+  position: absolute;
+}
+
+    #perimetro .linea_divisoria {
+      width: 950px;
+      height: 450px;
+      border: 1px solid white;
+      position: relative;
+      top: 25px;
+      left: 25px;
+    }
+
+          .recIzq, .recDer{
+            width: 150px;
+            height: 250px;
+            border: 1px solid white;
+            position: relative;
+            top: 100px;
+          }
+
+          .recDer {
+            float: right;
+          }
+
+          .circulo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 1px solid white;
+            position: relative;
+            left: 400px;
+            bottom: 100px;
+          }
+
+              .balon {
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                background-color: white;
+
+              }
+
+              #balon01 {
+                top: 24%;
+                left: 15%;
+                position: absolute;
+              }
+
+              #balon02 {
+                top:10%;
+                left:45%;
+                position: absolute;
+              }
+
+              #balon03 {
+                top: 73%;
+                left: 82%;
+                position: absolute;
+              }
